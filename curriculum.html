@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi curriculum</title>
+	<style >
+		#principal {
+			border: solid 1px silver;
+			margin: 0 auto;
+			padding: 5px;
+			width: 80%
+			background: pink;
+			}
+			body{
+				background: url(fondo.jpg);
+				background-size: 100%;
+				background-attachment: fixed;
+				}
+
+				fieldset{
+					margin-bottom: 10px;
+					}
+
+					legend{
+						border: solid 1px #0000c5;
+						padding:5px;
+						font-weight: bold;
+						background: turquoise;
+						}
+
+						#mifoto{
+							margin: 5px;
+							border: solid 2px silver;
+							}
+
+	</style>
+</head>
+<body>
+	<div id="principal">
+		<img src="IMG_0250.jpg" id="mifoto" align="left" width="110"/>
+
+<h2>Jessica Virginia Nava Silva.</h2>
+<p>Direccion: 3ra etapa, Manzana 6, casa nmero 25, Ciudad Alianza, Municipio Guacara///Cel.: 04140184563</p>
+<p>Soy amigale y estoy siempre dispuesta a aprender para ser mejor cada dia.</p>
+
+<br>
+<br>
+<br>
+<br>
+<fieldset>
+	<legend>Datos Generales</legend>
+<ul>
+	<li>Cedula: 30.118.335</li>
+	<li>Direccion: Tercera etapa, Manzana 6, casa numero 25. Municipio Guacara, Estado Carabobo.</li>
+	<li>Teléfono: 04144184563</li>
+	<li>Correo: jessicavns02@gmail.com</li>
+	<li>Redes sociales: instagram</li>
+    <a href="http://https://www.instagram.com/accounts/edit/">Mi instagram</a>
+
+</ul>
+
+</fieldset>
+
+<fieldset>
+	<legend>Formacion académica</legend>
+	<ul>
+		<li>Estudios primarios:U.E: Colegio Patrocinio de María 2009-2015</li>
+		<li>Estudios secundarios: U.E: Colegio Patrocinio de María 2015-2020</li>
+		<li>Estudios universitarios: actualmente cursando el segundo trimentre en la UNITEC</li>
+		
+		
+	</ul>
+   
+</fieldset>
+<fieldset>
+	<legend>Idiomas</legend>
+	<ul>
+		<table>
+    <tr>
+        <td>Español</td>
+        <td>lengua natal</td>
+    </tr>
+    <tr>
+        <td>ingles</td>
+        <td>Intermedio</td>
+    </tr>
+</table>
+	</ul>
+
+</fieldset>
+<fieldset>
+	<legend>Experiencia laboral</legend>
+	<ul>
+		<li>Atencion al cliente: heladeria Crema Helados Guacara</li>
+
+	</ul>
+</fieldset>
+
+<h2>Contactame</h2>
+<form action="miScript.php" method="GET">
+    <label for="to">Para:</label>
+    <input id="to" type="email">
+
+    <label for="topic">Temática: </label>
+    <select id="topic" name="topic">
+      <option>-- Elige un tema --</option>
+      <option value="proposal">Propuesta</option>
+      <option value="report">Reporte</option>
+      <option value="other">Otro</option>
+    </select>
+
+    <label for="subject">Asunto: </label>
+    <input id="subject" name="subject" type="text">
+
+    <label for="body">Cuerpo:</label>
+    <textarea id="body" name="body"></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+
+
+</html>
